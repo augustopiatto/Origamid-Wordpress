@@ -83,6 +83,7 @@ define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '319b914
 define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', 'ee42072a81f80eeec91325d3d3c72355f44d98ee') );
 define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   '3f046cc9ff3d1b19ba01259b01d265468f9f8c78') );
 define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '648c80e333bb075f1cc4fb0509002d8cf8e8a460') );
+// valor aleatório, então de boa ficar público, não vai ser utilizado mesmo
 define('JWT_AUTH_SECRET_KEY', '6{hG=KPl j#OS&Z? #k2ijw*XI4Qw%)K&-UkH9`EJO[cRsx7BrB#4IX|EM0!;H,e');
 define('JWT_AUTH_CORS_ENABLE', true);
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
