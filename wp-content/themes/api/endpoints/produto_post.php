@@ -4,7 +4,7 @@ function api_produto_post($request) {
     $user = wp_get_current_user();
     $user_id = $user->ID;
 
-    if($user_id > 0){
+    if($user_id > 0) {
         $nome = sanitize_text_field($request['nome']);
         $preco = sanitize_text_field($request['preco']);
         $descricao = sanitize_text_field($request['descricao']);
